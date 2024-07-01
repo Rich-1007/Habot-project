@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="flex justify-center flex-col items-start w-2/5 gap-1">
               <div >
                 <img
-                  src="public/Footer-logo-removebg-preview.png"
+                  src="/Footer-logo-removebg-preview.png"
                   alt=""
                   className="object-contain"
                 />

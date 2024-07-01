@@ -9,7 +9,7 @@ const Content = () => {
       <div className="px-2 sm:px-0">
         <div className="w-full flex flex-col sm:px-20 sm:py-20  ">
           <div className="flex flex-col sm:flex-row py-14 ">
-            <div className="sm:w-1/2  flex flex-col gap-5 py-5 sm:py-0 justify-start">
+            <div className="sm:w-1/2  flex flex-col gap-5 py-5 sm:py-0 justify-start items-start">
               <span className="text-4xl text-black font-bold">
                 Ready to dive into
                 <span className="text-indigo-900"> HABOT?</span>
@@ -21,8 +21,8 @@ const Content = () => {
                 resources, and take the first step towards realizing your
                 entrepreneurial dreams
               </span>
-              <button className="font-bold flex flex-row justify-center items-center gap-4 text-white sm:w-1/3 rounded-md px-3 py-2 bg-green-600">
-                Sign up Today !
+              <button className="font-bold inline-flex justify-center items-center gap-4 text-white  rounded-md px-3 py-2 bg-green-600">
+                <span className="text-nowrap">Sign up Today !</span>
                 <BsArrowRight size={22} />
               </button>
             </div>

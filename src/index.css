@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-bg-layer {
+  background: linear-gradient(
+      356.01deg,
+      rgba(7, 47, 87, 0.75) 50.8%,
+      rgba(7, 47, 87, 0) 94.58%
+    ),
+    linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45));
+}
+.bg{
+    background: url('public/Background-image.png') no-repeat center;
+    background-size: cover;
+}

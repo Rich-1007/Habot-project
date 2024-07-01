@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="sm:h-[86px] bg-[#ffffff] flex flex-row justify-between items-center sm:px-20 px-1 py-2 ">
         <div className="">
           <img
-            src="public/Logo.png"
+            src="/Logo.png"
             alt=""
             className="sm:h-[86px] h-[50px] object-cover"
           />
