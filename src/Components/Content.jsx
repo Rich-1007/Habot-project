@@ -1,14 +1,6 @@
 import React from "react";
-import { BsArrowRight, BsFillFileTextFill } from "react-icons/bs";
-import { FaCheckCircle, FaSearch } from "react-icons/fa";
-import { FaCircleCheck, FaCirclePlus, FaUser } from "react-icons/fa6";
-import { GiShakingHands } from "react-icons/gi";
-import { GoCheckCircleFill } from "react-icons/go";
-import { GrDocumentText } from "react-icons/gr";
-import { HiPencil, HiUserAdd } from "react-icons/hi";
-import { ImProfile } from "react-icons/im";
-import { LuPen } from "react-icons/lu";
-import { PiClipboardTextFill, PiPencilSimpleBold } from "react-icons/pi";
+import { BsArrowRight } from "react-icons/bs";
+import { FaCircleCheck} from "react-icons/fa6";
 import { Data, gridArr } from "../data";
 
 const Content = () => {
