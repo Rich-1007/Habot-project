@@ -12,6 +12,6 @@
     linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45));
 }
 .bg{
-    background: url('public/Background-image.png') no-repeat center;
+    background: url('/Background-image.png') no-repeat center;
     background-size: cover;
 }
